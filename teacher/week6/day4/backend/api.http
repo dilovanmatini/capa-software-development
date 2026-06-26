@@ -1,0 +1,28 @@
+GET http://localhost:3000
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "name": "Sara Ali",
+    "email": "sara@gmail.com",
+    "password": "123",
+    "birthdate": "1995-05-15"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "sara@gmail.com",
+    "password": "123"
+}
+
+###
+
+GET http://localhost:3000/users
+Authorization: Bearer YOUR_TOKEN_HERE
