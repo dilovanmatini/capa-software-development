@@ -63,6 +63,11 @@ export default function BookScreen () {
                         pictureSource={item.formats}
                     />
                 )}
+                ListEmptyComponent={() => (
+                    <View className="flex-1 items-center justify-center">
+                        <Text>No books available.</Text>
+                    </View>
+                )}
             />
         </SafeAreaView>
     )
