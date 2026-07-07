@@ -39,13 +39,13 @@ export default function BookScreen () {
             setIsAuthenticated(true);
             Alert.alert("Login Successful", `Welcome, ${email}!`);
         } catch (error) {
-            Alert.alert("Login Failed", "Your credentials are invalid.");
+            Alert.alert("Login Failed", "Your credentials are invalid." + error);
         }
     }, [email, password]);
 
     useEffect(() => {
         loadBooks();
-    }, [loadBooks, handleLogin]);
+    }, [loadBooks, isAuthenticated]);
 
     if (loading) {
         return (
