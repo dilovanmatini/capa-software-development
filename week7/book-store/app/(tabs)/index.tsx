@@ -15,6 +15,7 @@ export default function BookScreen () {
     const [loading, setLoading] = useState(true)
     const [books, setBooks] = useState<Book[]>([])
     const [error, setError] = useState<string | null>(null)
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
 
     const loadBooks = useCallback(async () => {
         try {
@@ -46,6 +47,27 @@ export default function BookScreen () {
             <SafeAreaView className="flex-1 items-center justify-center">
                 <Text className="text-red-500">{error}</Text>
                 <Button title="Retry" onPress={loadBooks} />
+            </SafeAreaView>
+        )
+    }
+
+    if (!isAuthenticated) {
+        return (
+            <SafeAreaView className="flex-1 items-center justify-center p-5">
+                <View className="p-5 bg-white rounded-xl shadow m-5">
+                    <Text className="text-2xl font-bold mb-4">Login</Text>
+
+                    <TextInput
+                        placeholder="Email"
+                        className="border border-gray-300 rounded p-2 mb-4"
+                    />
+                    <TextInput
+                        placeholder="Password"
+                        secureTextEntry
+                        className="border border-gray-300 rounded p-2 mb-4"
+                    />
+                    <Button title="Login" onPress={() => setIsAuthenticated(true)} />
+                </View>
             </SafeAreaView>
         )
     }
