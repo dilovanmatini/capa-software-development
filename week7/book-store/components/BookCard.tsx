@@ -9,21 +9,20 @@ interface BookCardProps {
 
 export default function BookCard({ name, author, price = 'N/A', pictureSource }: BookCardProps) {
     return (
-        <View className="bg-yellow-500 mb-2">
-            <Image
-            source={require('../assets/images/react-logo.png')}
-            className="w-16 h-16"
-            />
-            {pictureSource &&
-            <Image
-            source={{uri:pictureSource}}
-            className="w-16 h-16 bg-black"
-            resizeMode="cover"
-            />
-            }
-            <Text className="text-lg font-bold">{name}</Text>
-            <Text>{author}</Text>
-            <Text>Price: {price}</Text>
+        <View className="bg-white rounded-xl shadow p-5 mb-4">
+            {pictureSource ? (
+                <Image
+                source={{ uri: pictureSource }}
+                className="w-16 h-24 mb-2 rounded"
+                />
+            ) : (
+                <Image
+                source={require("../assets/images/react-logo.png")}
+                className="w-16 h-16 mb-2"
+                />
+            )}
+            <Text className="text-xl font-bold">{name}</Text>
+            <Text className="text-gray-600">{author}</Text>
         </View>
     )
 }
