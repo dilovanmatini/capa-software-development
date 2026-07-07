@@ -16,6 +16,8 @@ export default function BookScreen () {
     const [books, setBooks] = useState<Book[]>([])
     const [error, setError] = useState<string | null>(null)
     const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
     const loadBooks = useCallback(async () => {
         try {
@@ -60,11 +62,15 @@ export default function BookScreen () {
                     <TextInput
                         placeholder="Email"
                         className="border border-gray-300 rounded p-2 mb-4"
+                        value={email}
+                        onChangeText={setEmail}
                     />
                     <TextInput
                         placeholder="Password"
                         secureTextEntry
                         className="border border-gray-300 rounded p-2 mb-4"
+                        value={password}
+                        onChangeText={setPassword}
                     />
                     <Button title="Login" onPress={() => setIsAuthenticated(true)} />
                 </View>
