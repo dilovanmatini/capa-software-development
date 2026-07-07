@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { useState, useCallback, useEffect } from 'react';
 import BookCard from "../../components/BookCard";
 import { fetchBooks } from "../../services/bookService";
+import { loginUser } from "../../services/authService";
 
 interface Book {
     id: number;
@@ -32,9 +33,19 @@ export default function BookScreen () {
         }
     }, [])
 
+    const handleLogin = useCallback(async () => {
+        try {
+            const data = await loginUser(email, password);
+            setIsAuthenticated(true);
+            Alert.alert("Login Successful", `Welcome, ${email}!`);
+        } catch (error) {
+            Alert.alert("Login Failed", "Your credentials are invalid.");
+        }
+    }, [email, password]);
+
     useEffect(() => {
         loadBooks();
-    }, [loadBooks]);
+    }, [loadBooks, handleLogin]);
 
     if (loading) {
         return (
@@ -72,7 +83,7 @@ export default function BookScreen () {
                         value={password}
                         onChangeText={setPassword}
                     />
-                    <Button title="Login" onPress={() => setIsAuthenticated(true)} />
+                    <Button title="Login" onPress={handleLogin} />
                 </View>
             </SafeAreaView>
         )
