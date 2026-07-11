@@ -1,0 +1,18 @@
+### Week 8 - Backend debugging with REST Client
+### Click "Send Request" above each request below.
+### (Requires the "REST Client" VS Code extension.)
+
+### 1. Home route  ->  expect "Hello World!"
+GET http://localhost:3000
+
+### 2. Get all books  ->  expect a JSON list of 3 books with status 200
+GET http://localhost:3000/books
+
+### 3. Add a new book  ->  expect the server to echo back the book you sent
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "The Pragmatic Programmer",
+    "price": 28
+}

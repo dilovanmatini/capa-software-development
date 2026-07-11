@@ -1,0 +1,14 @@
+{
+  "name": "week8-backend",
+  "version": "1.0.0",
+  "description": "Week 8 debugging exercise - Express backend (broken on purpose)",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
