@@ -101,6 +101,115 @@ The course blends guided instruction, hands-on practice, and project work: examp
 
 **Activities:** Complete project; present main features.
 
+## Group Project
+
+In addition to the guided full-stack project, students work in **teams of four to six** to build a separate full-stack application. Each team chooses one project idea and delivers **web and mobile clients** connected to the **same backend**.
+
+**Goal:** Build a full-stack application with:
+
+- **Backend:** Node.js + Express  
+- **Database:** MySQL  
+- **Web app:** React  
+- **Mobile app:** React Native  
+
+**Deadline:** Sunday, **26 July 2026**
+
+### Requirements (all teams)
+
+Every project must include:
+
+- User registration and login  
+- CRUD operations (Create, Read, Update, Delete)  
+- An attractive UI  
+- Web and mobile clients connected to the same backend  
+- A clear, maintainable project structure  
+
+### Teams and project ideas
+
+#### Team A — Event Management App
+
+Manage events and allow users to register for them.
+
+**Features:**
+
+- Create, update, and delete events  
+- Event registration by users  
+- View upcoming events  
+- Event details and participants  
+- Web and mobile interfaces  
+
+**Team leader:** Aya Adel Mohammed  
+
+**Members:** Hevi Hussein Ali, Mateen Jameel Namer, Aya Isam Omer, Sidra Jalal Mohammad  
+
+#### Team B — Task Management App
+
+A simple app where users can create tasks, set deadlines, and mark them as complete.
+
+**Features:**
+
+- User registration and login  
+- Create, update, and delete tasks  
+- Mark tasks as completed  
+- View tasks by status (Pending / Done)  
+- Web and mobile interfaces  
+
+**Team leader:** Nipel Shaaban Salih  
+
+**Members:** Dleen Maher Tahseen, Dersim Ahmed Sulaiman, Payveen Nizar Mohammad, Reem Mahmoud Yosef, Lava Hsso  
+
+#### Team C — Student Management System
+
+A system to manage students, departments, and courses. Useful for small schools or training centers.
+
+**Features:**
+
+- Add, update, and delete students  
+- Manage departments and courses  
+- Assign students to courses  
+- Search and filter students  
+- Web and mobile interfaces  
+
+**Team leader:** Shakir Bashar Hussein  
+
+**Members:** Ahmed Nawaf Abdi, Hadiya Haji Hassan, Sharifan Khairi, Gilan Khero, Samyan Lezgeen Younis, Miqdad Mohammed Alsaeed  
+
+#### Team D — Clinic Appointment System
+
+A system for patients to book appointments and clinics to manage schedules.
+
+**Features:**
+
+- User (patient) registration and login  
+- Book, update, and cancel appointments  
+- Doctors and schedules management  
+- View appointments  
+- Web and mobile interfaces  
+
+**Team leader:** Peshin Issa Taher  
+
+**Members:** Avan Mohammed Ali, Noor Hassan Sofi, Ajin Ismat Mohammed, Sorgul Fareed Mohamad, Helin Sef Aldein Almohammad, Dunia Jawad  
+
+### Recommended tools
+
+| Tool | Purpose |
+|------|---------|
+| **GitHub** or **GitLab** | Version control and collaboration |
+| **Slack** or **Discord** | Team communication |
+| **Figma** or **Adobe XD** | UI design |
+| **Postman** or **REST Client** | API testing |
+| **Jira** | Task management |
+| **Google Meet** | Online meetings |
+
+### Tips for success
+
+1. Plan your database first.  
+2. Build the backend API step by step.  
+3. Test your APIs.  
+4. Build the web app.  
+5. Build the mobile app.  
+6. Prepare a final presentation.  
+
 ## Course materials and tools
 
 There is **no textbook** to purchase; materials are provided in class.
