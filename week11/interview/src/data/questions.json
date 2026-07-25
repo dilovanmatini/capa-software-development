@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "topic": "General",
+    "question": "What are the three main layers of a modern full-stack application covered in this course?",
+    "answer": "Backend (server and API), web frontend (React), and mobile frontend (React Native), all sharing data through the same backend.",
+    "answerAr": "الخادم (السيرفر وواجهة API)، الواجهة الأمامية للويب (React)، والواجهة الأمامية للجوال (React Native)، وجميعها تتشارك البيانات عبر نفس الخادم."
+  },
+  {
+    "id": 2,
+    "topic": "Web Basics",
+    "question": "What is the role of HTML in a web page?",
+    "answer": "HTML defines the structure and content of a page — headings, paragraphs, sections, links, and other elements.",
+    "answerAr": "يحدد HTML بنية ومحتوى الصفحة — العناوين، الفقرات، الأقسام، الروابط، وغيرها من العناصر."
+  },
+  {
+    "id": 3,
+    "topic": "Web Basics",
+    "question": "What is CSS used for?",
+    "answer": "CSS styles the appearance of HTML elements: colors, fonts, spacing, layout, and responsive design.",
+    "answerAr": "يُستخدم CSS لتنسيق مظهر عناصر HTML: الألوان، الخطوط، المسافات، التخطيط، والتصميم المتجاوب."
+  },
+  {
+    "id": 4,
+    "topic": "Web Basics",
+    "question": "What does JavaScript add to a web page that HTML and CSS alone cannot?",
+    "answer": "Interactivity and behavior — handling clicks, updating content dynamically, validating input, and communicating with APIs.",
+    "answerAr": "التفاعل والسلوك — معالجة النقرات، تحديث المحتوى ديناميكياً، التحقق من المدخلات، والتواصل مع واجهات API."
+  },
+  {
+    "id": 5,
+    "topic": "Web Basics",
+    "question": "In simple terms, how does a web application work between browser and server?",
+    "answer": "The browser (client) sends a request; the server processes it and sends back a response — often HTML, JSON, or other data.",
+    "answerAr": "يرسل المتصفح (العميل) طلباً؛ يعالجه الخادم ويرسل رداً — غالباً HTML أو JSON أو بيانات أخرى."
+  },
+  {
+    "id": 6,
+    "topic": "JavaScript",
+    "question": "What is a variable in programming?",
+    "answer": "A named container that stores a value — such as a number, string, boolean, object, or array — so you can reuse and update it.",
+    "answerAr": "حاوية مسماة تخزن قيمة — مثل رقم أو نص أو قيمة منطقية أو كائن أو مصفوفة — لتتمكن من إعادة استخدامها وتحديثها."
+  },
+  {
+    "id": 7,
+    "topic": "JavaScript",
+    "question": "What is the difference between an if statement and a loop?",
+    "answer": "An if statement runs code only when a condition is true. A loop repeats code multiple times while a condition holds or over a collection.",
+    "answerAr": "ينفذ if الكود فقط عندما يكون الشرط صحيحاً. تكرر الحلقة (loop) الكود عدة مرات طالما تحقق الشرط أو على مجموعة من العناصر."
+  },
+  {
+    "id": 8,
+    "topic": "JavaScript",
+    "question": "What does the array method push() do?",
+    "answer": "It adds one or more items to the end of an array and returns the new length.",
+    "answerAr": "يضيف عنصراً أو أكثر إلى نهاية المصفوفة ويُرجع الطول الجديد."
+  },
+  {
+    "id": 9,
+    "topic": "JavaScript",
+    "question": "What is the difference between map() and filter()?",
+    "answer": "map() transforms every item into a new value. filter() keeps only items that match a condition.",
+    "answerAr": "map() يحوّل كل عنصر إلى قيمة جديدة. filter() يبقي فقط العناصر التي تطابق شرطاً معيناً."
+  },
+  {
+    "id": 10,
+    "topic": "JavaScript",
+    "question": "What does the find() array method return?",
+    "answer": "The first element that matches the condition, or undefined if none match.",
+    "answerAr": "أول عنصر يطابق الشرط، أو undefined إذا لم يُوجد أي عنصر."
+  },
+  {
+    "id": 11,
+    "topic": "Debugging",
+    "question": "What is a good first step when your code throws an error?",
+    "answer": "Read the error message carefully, note the file and line number, then investigate that spot instead of guessing.",
+    "answerAr": "اقرأ رسالة الخطأ بعناية، لاحظ اسم الملف ورقم السطر، ثم تحقق من ذلك المكان بدلاً من التخمين."
+  },
+  {
+    "id": 12,
+    "topic": "Git",
+    "question": "What is Git used for in software development?",
+    "answer": "Version control — tracking changes to code over time, collaborating with others, and reverting mistakes safely.",
+    "answerAr": "التحكم بالإصدارات — تتبع التغييرات في الكود عبر الزمن، التعاون مع الآخرين، والتراجع عن الأخطاء بأمان."
+  },
+  {
+    "id": 13,
+    "topic": "Git",
+    "question": "What is a Git commit?",
+    "answer": "A saved snapshot of your project at a point in time, with a message describing what changed.",
+    "answerAr": "لقطة محفوظة لمشروعك في لحظة زمنية، مع رسالة تصف ما الذي تغيّر."
+  },
+  {
+    "id": 14,
+    "topic": "Git",
+    "question": "What is a Git repository?",
+    "answer": "A project folder tracked by Git that stores all commits, branches, and history of the codebase.",
+    "answerAr": "مجلد مشروع يُتتبّع بواسطة Git ويخزّن جميع الـ commits والفروع وتاريخ الكود."
+  },
+  {
+    "id": 15,
+    "topic": "Databases",
+    "question": "Why do most applications use a database instead of only storing data in code?",
+    "answer": "Databases persist data reliably, handle large amounts of structured information, and allow safe querying and updates.",
+    "answerAr": "قواعد البيانات تحفظ البيانات بشكل موثوق، تتعامل مع كميات كبيرة من المعلومات المنظمة، وتسمح بالاستعلام والتحديث بأمان."
+  },
+  {
+    "id": 16,
+    "topic": "SQL",
+    "question": "In a relational database, what is a table?",
+    "answer": "A structured collection of rows (records) and columns (fields) that store related data, such as students or courses.",
+    "answerAr": "مجموعة منظمة من الصفوف (السجلات) والأعمدة (الحقول) تخزّن بيانات مترابطة، مثل الطلاب أو المقررات."
+  },
+  {
+    "id": 17,
+    "topic": "SQL",
+    "question": "What does this query return: SELECT * FROM students?",
+    "answer": "All columns and all rows from the students table.",
+    "answerAr": "جميع الأعمدة وجميع الصفوف من جدول students."
+  },
+  {
+    "id": 18,
+    "topic": "SQL",
+    "question": "What is the purpose of the WHERE clause in SQL?",
+    "answer": "It filters rows so only records matching a condition are returned, updated, or deleted.",
+    "answerAr": "يُرشّح الصفوف بحيث تُعاد أو تُحدّث أو تُحذف فقط السجلات التي تطابق شرطاً معيناً."
+  },
+  {
+    "id": 19,
+    "topic": "SQL",
+    "question": "What is a PRIMARY KEY?",
+    "answer": "A column (or set of columns) that uniquely identifies each row in a table — no two rows can share the same primary key.",
+    "answerAr": "عمود (أو مجموعة أعمدة) يُعرّف كل صف بشكل فريد — لا يمكن لصفّين أن يتشاركا نفس المفتاح الأساسي."
+  },
+  {
+    "id": 20,
+    "topic": "SQL",
+    "question": "What is the difference between DELETE and TRUNCATE?",
+    "answer": "DELETE removes specific rows (or all rows with no WHERE). TRUNCATE quickly removes all rows from a table but keeps the table structure.",
+    "answerAr": "DELETE يحذف صفوفاً محددة (أو جميع الصفوف بدون WHERE). TRUNCATE يزيل جميع الصفوف بسرعة لكنه يحافظ على بنية الجدول."
+  },
+  {
+    "id": 21,
+    "topic": "SQL",
+    "question": "Why use placeholders (?) in SQL queries from Node.js instead of string concatenation?",
+    "answer": "Placeholders prevent SQL injection by separating query structure from user input and let the database safely escape values.",
+    "answerAr": "تمنع العناصر النائبة (?) حقن SQL بفصل بنية الاستعلام عن مدخلات المستخدم وتسمح لقاعدة البيانات بمعالجة القيم بأمان."
+  },
+  {
+    "id": 22,
+    "topic": "Backend",
+    "question": "What is Node.js?",
+    "answer": "A JavaScript runtime that lets you run JavaScript on the server to build backends, APIs, and command-line tools.",
+    "answerAr": "بيئة تشغيل JavaScript تتيح تشغيل JavaScript على الخادم لبناء الـ backend وواجهات API وأدوات سطر الأوامر."
+  },
+  {
+    "id": 23,
+    "topic": "Backend",
+    "question": "What is Express?",
+    "answer": "A popular Node.js framework for building web servers and REST APIs with routes, middleware, and request handling.",
+    "answerAr": "إطار عمل شائع لـ Node.js لبناء خوادم الويب وواجهات REST API مع المسارات والـ middleware ومعالجة الطلبات."
+  },
+  {
+    "id": 24,
+    "topic": "APIs",
+    "question": "What is a REST API?",
+    "answer": "An interface where clients communicate with a server using HTTP methods (GET, POST, PUT, DELETE) on resource URLs, usually returning JSON.",
+    "answerAr": "واجهة يتواصل عبرها العملاء مع الخادم باستخدام طرق HTTP (GET, POST, PUT, DELETE) على عناوين الموارد، وغالباً تُرجع JSON."
+  },
+  {
+    "id": 25,
+    "topic": "APIs",
+    "question": "When should you use a GET request versus a POST request?",
+    "answer": "GET retrieves data without changing server state. POST sends data to create something new or submit information.",
+    "answerAr": "GET يجلب البيانات دون تغيير حالة الخادم. POST يرسل بيانات لإنشاء شيء جديد أو إرسال معلومات."
+  },
+  {
+    "id": 26,
+    "topic": "Express",
+    "question": "What is req.params used for in an Express route like /students/:id?",
+    "answer": "It holds URL path parameters — for /students/3, req.params.id would be \"3\".",
+    "answerAr": "يحتوي على معاملات مسار URL — لـ /students/3، req.params.id سيكون \"3\"."
+  },
+  {
+    "id": 27,
+    "topic": "Express",
+    "question": "What is req.body used for?",
+    "answer": "It contains data sent in the request body, typically JSON from a POST or PUT request after parsing middleware runs.",
+    "answerAr": "يحتوي على البيانات المرسلة في جسم الطلب، عادة JSON من طلب POST أو PUT بعد تشغيل middleware التحليل."
+  },
+  {
+    "id": 28,
+    "topic": "Express",
+    "question": "Why do we use express.json() middleware?",
+    "answer": "It parses incoming JSON request bodies and makes them available as a JavaScript object on req.body.",
+    "answerAr": "يحلّل أجسام طلبات JSON الواردة ويجعلها متاحة ككائن JavaScript على req.body."
+  },
+  {
+    "id": 29,
+    "topic": "HTTP",
+    "question": "What HTTP status code should you return when a requested student ID does not exist?",
+    "answer": "404 Not Found.",
+    "answerAr": "404 Not Found (غير موجود)."
+  },
+  {
+    "id": 30,
+    "topic": "Tools",
+    "question": "What is Postman (or REST Client) used for?",
+    "answer": "Testing API endpoints by sending HTTP requests and inspecting responses without building a full frontend first.",
+    "answerAr": "اختبار نقاط نهاية API بإرسال طلبات HTTP وفحص الاستجابات دون بناء واجهة أمامية كاملة أولاً."
+  },
+  {
+    "id": 31,
+    "topic": "React",
+    "question": "What is a React component?",
+    "answer": "A reusable piece of UI — a function or class that returns JSX describing what should appear on screen.",
+    "answerAr": "جزء قابل لإعادة الاستخدام من واجهة المستخدم — دالة أو class تُرجع JSX يصف ما يظهر على الشاشة."
+  },
+  {
+    "id": 32,
+    "topic": "React",
+    "question": "What is JSX?",
+    "answer": "A syntax extension that lets you write HTML-like markup inside JavaScript, which React compiles into UI elements.",
+    "answerAr": "امتداد صياغة يتيح كتابة markup شبيه بـ HTML داخل JavaScript، ويقوم React بتحويله إلى عناصر واجهة."
+  },
+  {
+    "id": 33,
+    "topic": "React",
+    "question": "What is the difference between props and state?",
+    "answer": "Props are read-only data passed from a parent component. State is data managed inside a component that can change over time.",
+    "answerAr": "props هي بيانات للقراءة فقط تُمرّر من المكوّن الأب. state هي بيانات تُدار داخل المكوّن ويمكن أن تتغير بمرور الوقت."
+  },
+  {
+    "id": 34,
+    "topic": "React",
+    "question": "What does the useState hook return?",
+    "answer": "An array with two items: the current state value and a setter function to update that value.",
+    "answerAr": "مصفوفة بعنصرين: قيمة الحالة الحالية ودالة لتعديل تلك القيمة."
+  },
+  {
+    "id": 35,
+    "topic": "React",
+    "question": "How do you fetch data from a backend API in React?",
+    "answer": "Use fetch() or axios inside useEffect (or an event handler), await the response, parse JSON, and store it in state.",
+    "answerAr": "استخدم fetch() أو axios داخل useEffect (أو معالج حدث)، انتظر الاستجابة، حلّل JSON، واحفظه في state."
+  },
+  {
+    "id": 36,
+    "topic": "React",
+    "question": "Why should API calls usually live in a separate service file instead of directly inside components?",
+    "answer": "It keeps components focused on UI, makes API logic reusable, and simplifies testing and maintenance.",
+    "answerAr": "يُبقي المكوّنات مركّزة على الواجهة، يجعل منطق API قابلاً لإعادة الاستخدام، ويُبسّط الاختبار والصيانة."
+  },
+  {
+    "id": 37,
+    "topic": "Routing",
+    "question": "What is React Router used for?",
+    "answer": "Client-side routing — mapping URL paths to different pages/components without reloading the entire browser page.",
+    "answerAr": "التوجيه من جانب العميل — ربط مسارات URL بصفحات/مكوّنات مختلفة دون إعادة تحميل الصفحة بالكامل."
+  },
+  {
+    "id": 38,
+    "topic": "Authentication",
+    "question": "What is a basic login flow between frontend and backend?",
+    "answer": "User submits credentials → backend validates them → backend returns a token or session → frontend stores it and sends it with later requests.",
+    "answerAr": "يرسل المستخدم بيانات الدخول ← يتحقق الخادم منها ← يُرجع token أو جلسة ← تحفظها الواجهة الأمامية وترسلها مع الطلبات اللاحقة."
+  },
+  {
+    "id": 39,
+    "topic": "Authentication",
+    "question": "What is localStorage and how is it used for basic auth in this course?",
+    "answer": "Browser storage that persists after refresh. The app saves a token there on login and checks it to know if the user is logged in.",
+    "answerAr": "تخزين في المتصفح يبقى بعد التحديث. يحفظ التطبيق token عند تسجيل الدخول ويتحقق منه لمعرفة ما إذا كان المستخدم مسجلاً."
+  },
+  {
+    "id": 40,
+    "topic": "Authentication",
+    "question": "What is a protected page?",
+    "answer": "A route that should only be visible to logged-in users — the app checks auth state and redirects others to login.",
+    "answerAr": "مسار يجب أن يكون مرئياً فقط للمستخدمين المسجّلين — يتحقق التطبيق من حالة المصادقة ويُعيد توجيه الآخرين لتسجيل الدخول."
+  },
+  {
+    "id": 41,
+    "topic": "Mobile",
+    "question": "What is React Native?",
+    "answer": "A framework for building native mobile apps using JavaScript/React, sharing logic with web while using mobile UI components.",
+    "answerAr": "إطار عمل لبناء تطبيقات جوال أصلية باستخدام JavaScript/React، مع مشاركة المنطق مع الويب واستخدام مكوّنات واجهة الجوال."
+  },
+  {
+    "id": 42,
+    "topic": "Mobile",
+    "question": "What is a key difference between React for web and React Native?",
+    "answer": "React web renders HTML elements in a browser. React Native renders native mobile components like View and Text instead of div and span.",
+    "answerAr": "React للويب يعرض عناصر HTML في المتصفح. React Native يعرض مكوّنات جوال أصلية مثل View و Text بدلاً من div و span."
+  },
+  {
+    "id": 43,
+    "topic": "Integration",
+    "question": "Why should web and mobile apps share the same backend API?",
+    "answer": "One source of truth for data and business logic — both clients stay in sync and you avoid duplicating backend code.",
+    "answerAr": "مصدر واحد للحقيقة للبيانات ومنطق الأعمال — يبقى كلا العميلين متزامنين وتتجنب تكرار كود الخادم."
+  },
+  {
+    "id": 44,
+    "topic": "Debugging",
+    "question": "What is a practical debugging process when an API returns an error?",
+    "answer": "Observe the error → read logs and status code → test the endpoint with Postman/REST Client → find root cause → fix one issue → test again.",
+    "answerAr": "راقب الخطأ ← اقرأ السجلات ورمز الحالة ← اختبر نقطة النهاية بـ Postman/REST Client ← اعثر على السبب الجذري ← أصلح مشكلة واحدة ← اختبر مجدداً."
+  },
+  {
+    "id": 45,
+    "topic": "Code Quality",
+    "question": "Why is code organization important in a growing project?",
+    "answer": "Clear folders and separation of concerns make the app easier to read, debug, extend, and collaborate on as features grow.",
+    "answerAr": "مجلدات واضحة وفصل للمسؤوليات تجعل التطبيق أسهل في القراءة والتصحيح والتوسيع والتعاون مع نمو الميزات."
+  },
+  {
+    "id": 46,
+    "topic": "AI Tools",
+    "question": "How should AI tools be used responsibly during development?",
+    "answer": "Use them to explain, suggest, and debug — but you stay in control: understand the logic, verify output, and never blindly copy code.",
+    "answerAr": "استخدمها للشرح والاقتراح والتصحيح — لكن أنت تبقى مسيطراً: افهم المنطق، تحقق من المخرجات، ولا تنسخ الكود دون فهم."
+  },
+  {
+    "id": 47,
+    "topic": "General",
+    "question": "What does CRUD stand for?",
+    "answer": "Create, Read, Update, Delete — the four basic operations for managing data in an application.",
+    "answerAr": "Create (إنشاء)، Read (قراءة)، Update (تحديث)، Delete (حذف) — العمليات الأربع الأساسية لإدارة البيانات في التطبيق."
+  },
+  {
+    "id": 48,
+    "topic": "General",
+    "question": "What tech stack is required for the General?",
+    "answer": "Node.js + Express backend, MySQL database, React web app, and React Native mobile app — all connected to the same API.",
+    "answerAr": "خادم Node.js + Express، قاعدة بيانات MySQL، تطبيق ويب React، وتطبيق جوال React Native — جميعها متصلة بنفس API."
+  },
+  {
+    "id": 49,
+    "topic": "General",
+    "question": "Name three mandatory features every team project must include.",
+    "answer": "User registration and login, full CRUD operations, and both web and mobile clients connected to the same backend (plus an attractive UI).",
+    "answerAr": "تسجيل المستخدم وتسجيل الدخول، عمليات CRUD كاملة، وتطبيق ويب وجوال متصلان بنفس الخادم (بالإضافة إلى واجهة جذابة)."
+  },
+  {
+    "id": 50,
+    "topic": "General",
+    "question": "What is a recommended order for building a full-stack team project?",
+    "answer": "Plan the database first → build and test the backend API → build the web app → build the mobile app → integrate and prepare the presentation.",
+    "answerAr": "خطّط قاعدة البيانات أولاً ← ابنِ واختبر API الخادم ← ابنِ تطبيق الويب ← ابنِ تطبيق الجوال ← ادمج واستعد للعرض."
+  }
+]

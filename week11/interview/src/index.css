@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+.action-btn {
+  cursor: pointer;
+}
+
+.action-btn:focus,
+.action-btn:focus-visible {
+  outline: none;
+  box-shadow: none;
+  --tw-ring-shadow: 0 0 #0000;
+}
+
+.action-btn:disabled {
+  cursor: not-allowed;
+}
