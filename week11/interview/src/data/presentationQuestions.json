@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "topic": "Problem",
+    "question": "What problem does your project solve, and who has this problem?",
+    "questionAr": "ما المشكلة التي يحلّها مشروعكم، ومن يعاني من هذه المشكلة؟",
+    "answer": "Name a real user group and a clear pain point — e.g. students forgetting tasks, clinics losing appointments. Explain why it matters without jumping straight to technology.",
+    "answerAr": "اذكر مجموعة مستخدمين حقيقية ونقطة ألم واضحة — مثل طلاب ينسون المهام أو عيادات تفقد المواعيد. اشرح لماذا الأمر مهم دون القفز مباشرة إلى التقنية."
+  },
+  {
+    "id": 2,
+    "topic": "Problem",
+    "question": "How did you validate that this problem is worth solving?",
+    "questionAr": "كيف تحققتم من أن هذه المشكلة تستحق الحل؟",
+    "answer": "Mention interviews, surveys, personal experience, teacher feedback, or observing how people currently solve the problem with paper, WhatsApp, or spreadsheets.",
+    "answerAr": "اذكر مقابلات، استبيانات، تجربة شخصية، ملاحظات المعلّم، أو مراقبة كيف يحلّ الناس المشكلة حالياً بالورق أو واتساب أو جداول Excel."
+  },
+  {
+    "id": 3,
+    "topic": "Solution",
+    "question": "What is your solution in one sentence?",
+    "questionAr": "ما حلّكم في جملة واحدة؟",
+    "answer": "A short user-focused sentence: who it helps, what they can do, and the main benefit — without listing every feature.",
+    "answerAr": "جملة قصيرة تركز على المستخدم: من يساعد، ماذا يمكنه أن يفعل، والفائدة الرئيسية — دون سرد كل ميزة."
+  },
+  {
+    "id": 4,
+    "topic": "Solution",
+    "question": "What are the three to five main features of your app?",
+    "questionAr": "ما هي الميزات الرئيسية الثلاث إلى الخمس في تطبيقكم؟",
+    "answer": "List core features only — registration/login, main CRUD workflow, search/filter, notifications, dashboard, etc. Skip minor UI details.",
+    "answerAr": "اذكر الميزات الأساسية فقط — التسجيل/تسجيل الدخول، سير عمل CRUD الرئيسي، البحث/التصفية، الإشعارات، لوحة التحكم، إلخ. تجاوز تفاصيل الواجهة الثانوية."
+  },
+  {
+    "id": 5,
+    "topic": "Architecture",
+    "question": "Explain your system architecture in simple terms.",
+    "questionAr": "اشرح بنية نظامكم بعبارات بسيطة.",
+    "answer": "Web (React) and mobile (React Native) both call the same Express API, which reads and writes to a MySQL database. One backend, two clients, one source of truth.",
+    "answerAr": "تطبيق الويب (React) والجوال (React Native) يستدعيان نفس API في Express، الذي يقرأ ويكتب في قاعدة MySQL. خادم واحد، عميلان، مصدر واحد للحقيقة."
+  },
+  {
+    "id": 6,
+    "topic": "Architecture",
+    "question": "Why did you choose this tech stack?",
+    "questionAr": "لماذا اخترتم هذا الـ tech stack؟",
+    "answer": "It matches the course requirements, lets web and mobile share logic and API, has strong community support, and is practical for junior full-stack projects.",
+    "answerAr": "يتوافق مع متطلبات المقرر، يتيح للويب والجوال مشاركة المنطق و API، له دعم مجتمعي قوي، وهو عملي لمشاريع full-stack للمبتدئين."
+  },
+  {
+    "id": 7,
+    "topic": "Database",
+    "question": "What are your main database tables and how are they related?",
+    "questionAr": "ما جداول قاعدة البيانات الرئيسية وكيف ترتبط ببعضها؟",
+    "answer": "Name 3–5 tables and relationships — e.g. users have many tasks, categories have many products. A simple one-to-many diagram or bullet list is enough.",
+    "answerAr": "اذكر 3–5 جداول وعلاقات — مثل users لها many tasks، categories لها many products. مخطط one-to-many بسيط أو قائمة نقطية كافية."
+  },
+  {
+    "id": 8,
+    "topic": "Database",
+    "question": "Why did you design the database this way?",
+    "questionAr": "لماذا صممتم قاعدة البيانات بهذا الشكل؟",
+    "answer": "Explain normalization basics, avoiding duplicate data, using foreign keys, and designing for the queries your app actually needs.",
+    "answerAr": "اشرح أساسيات التطبيع، تجنّب تكرار البيانات، استخدام المفاتيح الأجنبية، والتصميم للاستعلامات التي يحتاجها تطبيقكم فعلاً."
+  },
+  {
+    "id": 9,
+    "topic": "Database",
+    "question": "What is a foreign key in your project? Give an example.",
+    "questionAr": "ما المفتاح الأجنبي في مشروعكم؟ أعطِ مثالاً.",
+    "answer": "A column that references another table’s primary key — e.g. tasks.user_id references users.id so each task belongs to one user.",
+    "answerAr": "عمود يشير إلى primary key في جدول آخر — مثل tasks.user_id يشير إلى users.id بحيث تنتمي كل مهمة لمستخدم واحد."
+  },
+  {
+    "id": 10,
+    "topic": "Database",
+    "question": "How do you prevent duplicate or inconsistent data?",
+    "questionAr": "كيف تمنعون البيانات المكررة أو غير المتسقة؟",
+    "answer": "Use unique constraints where needed, foreign keys, validation in the backend, and clear CRUD rules instead of trusting the frontend alone.",
+    "answerAr": "استخدموا قيود unique عند الحاجة، foreign keys، التحقق في الخادم، وقواعد CRUD واضحة بدلاً من الاعتماد على الواجهة الأمامية وحدها."
+  },
+  {
+    "id": 11,
+    "topic": "Backend",
+    "question": "Walk us through your main API routes.",
+    "questionAr": "اذكر لنا مسارات API الرئيسية.",
+    "answer": "Show auth routes plus CRUD for your main resource — GET list, GET by id, POST create, PUT update, DELETE remove. Mention you tested them in Postman.",
+    "answerAr": "اعرض مسارات auth بالإضافة إلى CRUD للمورد الرئيسي — GET list، GET by id، POST create، PUT update، DELETE remove. اذكر أنكم اختبرتموها في Postman."
+  },
+  {
+    "id": 12,
+    "topic": "Backend",
+    "question": "How does your login and registration work?",
+    "questionAr": "كيف يعمل تسجيل الدخول والتسجيل في مشروعكم؟",
+    "answer": "User sends email/password → backend validates → password is checked securely → backend returns a token or session → frontend stores it and sends it on protected requests.",
+    "answerAr": "يرسل المستخدم email/password ← يتحقق الخادم ← تُفحص كلمة المرور بأمان ← يُرجع token أو جلسة ← تحفظها الواجهة وترسلها مع الطلبات المحمية."
+  },
+  {
+    "id": 13,
+    "topic": "Backend",
+    "question": "How do you protect routes that require a logged-in user?",
+    "questionAr": "كيف تحمون المسارات التي تتطلب مستخدماً مسجّلاً؟",
+    "answer": "Middleware checks the token or session on each request. If invalid or missing, return 401 Unauthorized before running the route handler.",
+    "answerAr": "middleware يتحقق من token أو الجلسة في كل طلب. إذا كان غير صالح أو مفقود، أرجع 401 Unauthorized قبل تنفيذ معالج المسار."
+  },
+  {
+    "id": 14,
+    "topic": "Backend",
+    "question": "What happens when someone sends invalid data to your API?",
+    "questionAr": "ماذا يحدث عندما يرسل شخص بيانات غير صالحة إلى API؟",
+    "answer": "Validate on the server, return a clear 400 Bad Request with a helpful message, and never assume the frontend already validated everything.",
+    "answerAr": "تحقق على الخادم، أرجع 400 Bad Request برسالة مفيدة، ولا تفترض أن الواجهة الأمامية تحققت من كل شيء."
+  },
+  {
+    "id": 15,
+    "topic": "Backend",
+    "question": "Why should business logic live on the backend, not only in React?",
+    "questionAr": "لماذا يجب أن يعيش منطق الأعمال في الخادم، وليس في React فقط؟",
+    "answer": "Clients can be bypassed or modified. The backend is the trusted place for validation, permissions, and keeping data consistent for web and mobile.",
+    "answerAr": "يمكن تجاوز العملاء أو تعديلهم. الخادم هو المكان الموثوق للتحقق والصلاحيات والحفاظ على اتساق البيانات للويب والجوال."
+  },
+  {
+    "id": 16,
+    "topic": "Frontend",
+    "question": "How is your React app structured?",
+    "questionAr": "كيف يُنظَّم تطبيق React لديكم؟",
+    "answer": "Mention folders like components, pages, services, hooks, and routes. Explain that API calls and UI are separated for clarity and reuse.",
+    "answerAr": "اذكر مجلدات مثل components، pages، services، hooks، routes. اشرح أن استدعاءات API والواجهة منفصلان للوضوح وإعادة الاستخدام."
+  },
+  {
+    "id": 17,
+    "topic": "Frontend",
+    "question": "How do you handle loading and error states in the UI?",
+    "questionAr": "كيف تتعاملون مع حالات التحميل والخطأ في الواجهة؟",
+    "answer": "Show a spinner or skeleton while fetching, display friendly error messages on failure, and avoid blank screens so users always know what is happening.",
+    "answerAr": "اعرض spinner أو skeleton أثناء الجلب، رسائل خطأ واضحة عند الفشل، وتجنّب الشاشات الفارغة حتى يعرف المستخدم ما يحدث."
+  },
+  {
+    "id": 18,
+    "topic": "Frontend",
+    "question": "Why did you choose your UI library or styling approach?",
+    "questionAr": "لماذا اخترتم مكتبة الواجهة أو أسلوب التنسيق؟",
+    "answer": "Explain consistency, speed of development, responsive components, and accessibility — e.g. Tailwind + Flowbite for a clean, mobile-friendly UI.",
+    "answerAr": "اشرح الاتساق، سرعة التطوير، المكوّنات المتجاوبة، وإمكانية الوصول — مثل Tailwind + Flowbite لواجهة نظيفة ومناسبة للجوال."
+  },
+  {
+    "id": 19,
+    "topic": "Frontend",
+    "question": "How does your web app know if a user is logged in?",
+    "questionAr": "كيف يعرف تطبيق الويب إن كان المستخدم مسجّلاً؟",
+    "answer": "Check for a saved token in localStorage (or similar) on load, optionally verify with the backend, and redirect to login if missing on protected routes.",
+    "answerAr": "تحقق من token محفوظ في localStorage (أو ما شابه) عند التحميل، تحقق اختيارياً مع الخادم، وأعد التوجيه لتسجيل الدخول إذا كان مفقوداً في المسارات المحمية."
+  },
+  {
+    "id": 20,
+    "topic": "Mobile",
+    "question": "How similar are your web and mobile apps?",
+    "questionAr": "ما مدى تشابه تطبيقي الويب والجوال لديكم؟",
+    "answer": "They should offer the same core features and share the same data through one API. Differences are mostly layout and mobile-specific navigation patterns.",
+    "answerAr": "يجب أن يقدّما نفس الميزات الأساسية ويتشاركا البيانات عبر API واحد. الاختلافات غالباً في التخطيط وأنماط التنقل الخاصة بالجوال."
+  },
+  {
+    "id": 21,
+    "topic": "Mobile",
+    "question": "What was hardest about building the mobile version?",
+    "questionAr": "ما أصعب جزء في بناء نسخة الجوال؟",
+    "answer": "Common answers: navigation, styling differences, testing on devices, sharing auth state, or matching web behavior. Be honest and explain how you solved it.",
+    "answerAr": "إجابات شائعة: التنقل، اختلافات التنسيق، الاختبار على الأجهزة، مشاركة حالة auth، أو مطابقة سلوك الويب. كن صادقاً واشرح كيف حللتها."
+  },
+  {
+    "id": 22,
+    "topic": "Mobile",
+    "question": "Show us that web and mobile share the same data.",
+    "questionAr": "أرنا أن الويب والجوال يتشاركان نفس البيانات.",
+    "answer": "Create on web → refresh or open mobile and show the same record → edit on one side → confirm update on the other. This proves one backend works.",
+    "answerAr": "أنشئ على الويب ← حدّث أو افتح الجوال وأظهر نفس السجل ← عدّل من جهة ← أكّد التحديث من الجهة الأخرى. هذا يثبت أن خادماً واحداً يعمل."
+  },
+  {
+    "id": 23,
+    "topic": "Demo",
+    "question": "Please give us a live demo of the main user flow.",
+    "questionAr": "من فضلكم قدّموا عرضاً حياً لمسار المستخدم الرئيسي.",
+    "answer": "Follow a clear script: login → view list → create → edit → delete → show sync on second client if possible. Use a prepared demo account.",
+    "answerAr": "اتبع سيناريو واضح: login ← عرض القائمة ← create ← edit ← delete ← أظهر المزامنة على العميل الثاني إن أمكن. استخدم حساب demo جاهز."
+  },
+  {
+    "id": 24,
+    "topic": "Demo",
+    "question": "What will you do if the demo breaks during the presentation?",
+    "questionAr": "ماذا ستفعلون إذا تعطّل العرض أثناء التقديم؟",
+    "answer": "Stay calm, explain what should happen, use screenshots or a backup video, and do not spend many minutes debugging live on stage.",
+    "answerAr": "ابقَ هادئاً، اشرح ما كان يجب أن يحدث، استخدم لقطات شاشة أو فيديو احتياطي، ولا تقضِ دقائق طويلة في تصحيح الأخطاء على المسرح."
+  },
+  {
+    "id": 25,
+    "topic": "Demo",
+    "question": "Which features are fully working versus still in progress?",
+    "questionAr": "ما الميزات العاملة بالكامل مقابل ما لا يزال قيد التطوير؟",
+    "answer": "Be honest. Highlight completed CRUD, auth, and both clients. Mention planned items briefly without apologizing too much.",
+    "answerAr": "كن صادقاً. أبرز CRUD المكتمل و auth وكلا العميلين. اذكر العناصر المخططة باختصار دون اعتذار مبالغ."
+  },
+  {
+    "id": 26,
+    "topic": "Teamwork",
+    "question": "How did you divide work among team members?",
+    "questionAr": "كيف قسّمتم العمل بين أعضاء الفريق؟",
+    "answer": "Explain roles — backend, web, mobile, database, design, testing — and how you coordinated with Git branches, meetings, and shared documentation.",
+    "answerAr": "اشرح الأدوار — backend، web، mobile، database، design، testing — وكيف نسّقتم عبر فروع Git واجتماعات وتوثيق مشترك."
+  },
+  {
+    "id": 27,
+    "topic": "Teamwork",
+    "question": "What was the biggest teamwork challenge and how did you solve it?",
+    "questionAr": "ما أكبر تحدٍ في العمل الجماعي وكيف حللتموه؟",
+    "answer": "Examples: merge conflicts, uneven workload, miscommunication, or waiting on API endpoints. Focus on the solution — clearer tasks, daily check-ins, pair debugging.",
+    "answerAr": "أمثلة: تعارضات merge، عبء عمل غير متوازن، سوء تواصل، أو انتظار نقاط API. ركّز على الحل — مهام أوضح، متابعات يومية، تصحيح أخطاء ثنائي."
+  },
+  {
+    "id": 28,
+    "topic": "Teamwork",
+    "question": "How did you use Git as a team?",
+    "questionAr": "كيف استخدمتم Git كفريق؟",
+    "answer": "Branches per feature, meaningful commits, pull requests or reviews, resolving conflicts carefully, and keeping main stable for demo day.",
+    "answerAr": "فروع لكل ميزة، commits واضحة، pull requests أو مراجعات، حل التعارضات بعناية، والحفاظ على main مستقراً ليوم العرض."
+  },
+  {
+    "id": 29,
+    "topic": "Challenges",
+    "question": "What was the hardest technical bug you faced?",
+    "questionAr": "ما أصعب خطأ تقني واجهتموه؟",
+    "answer": "Describe symptoms, how you reproduced it, tools used (console, Postman, logs), root cause, and fix. Shows debugging maturity.",
+    "answerAr": "صف الأعراض، كيف أعدت إنتاجه، الأدوات (console، Postman، logs)، السبب الجذري، والإصلاح. يُظهر نضجاً في التصحيح."
+  },
+  {
+    "id": 30,
+    "topic": "Challenges",
+    "question": "Tell us about a feature you had to cut or simplify.",
+    "questionAr": "أخبرونا عن ميزة اضطررتم لحذفها أو تبسيطها.",
+    "answer": "Explain scope vs deadline, what you kept for MVP, and what you would add later. Prioritization is a good sign.",
+    "answerAr": "اشرح النطاق مقابل الموعد، ما أبقيتموه للـ MVP، وما ستضيفونه لاحقاً. تحديد الأولويات علامة جيدة."
+  },
+  {
+    "id": 31,
+    "topic": "Challenges",
+    "question": "What did you learn from building this project?",
+    "questionAr": "ماذا تعلّمتم من بناء هذا المشروع؟",
+    "answer": "Mix technical and soft skills — API design, SQL joins, React state, Git workflow, teamwork, estimating time, presenting clearly.",
+    "answerAr": "امزج مهارات تقنية و soft skills — تصميم API، SQL joins، React state، Git workflow، العمل الجماعي، تقدير الوقت، العرض بوضوح."
+  },
+  {
+    "id": 32,
+    "topic": "Security",
+    "question": "How do you store passwords safely?",
+    "questionAr": "كيف تخزّنون كلمات المرور بأمان؟",
+    "answer": "Never store plain text. Hash passwords with bcrypt (or similar) on the server before saving to the database.",
+    "answerAr": "لا تخزّن النص العادي أبداً. hash كلمات المرور بـ bcrypt (أو ما شابه) على الخادم قبل الحفظ في قاعدة البيانات."
+  },
+  {
+    "id": 33,
+    "topic": "Security",
+    "question": "How do you reduce SQL injection risk?",
+    "questionAr": "كيف تقلّلون خطر SQL injection؟",
+    "answer": "Use parameterized queries with ? placeholders instead of concatenating user input into SQL strings.",
+    "answerAr": "استخدموا استعلامات parameterized مع placeholders ? بدلاً من ربط مدخلات المستخدم في نصوص SQL."
+  },
+  {
+    "id": 34,
+    "topic": "Security",
+    "question": "Should the frontend alone control who can delete data?",
+    "questionAr": "هل يجب أن تتحكم الواجهة الأمامية وحدها في من يمكنه حذف البيانات؟",
+    "answer": "No. Hide buttons in UI for convenience, but the backend must verify ownership or role on every DELETE request.",
+    "answerAr": "لا. أخفِ الأزرار في الواجهة للراحة، لكن الخادم يجب أن يتحقق من الملكية أو الدور في كل طلب DELETE."
+  },
+  {
+    "id": 35,
+    "topic": "Testing",
+    "question": "How did you test your backend before connecting the frontend?",
+    "questionAr": "كيف اختبرتم الخادم قبل ربط الواجهة الأمامية؟",
+    "answer": "Postman or REST Client for each route — happy path, missing fields, invalid IDs, unauthorized access — checking status codes and JSON responses.",
+    "answerAr": "Postman أو REST Client لكل مسار — happy path، حقول مفقودة، IDs غير صالحة، وصول غير مصرح — مع فحص status codes و JSON."
+  },
+  {
+    "id": 36,
+    "topic": "Testing",
+    "question": "What test cases did you try for login?",
+    "questionAr": "ما حالات الاختبار التي جربتموها لتسجيل الدخول؟",
+    "answer": "Valid login, wrong password, unknown email, empty fields, and accessing protected routes without a token.",
+    "answerAr": "تسجيل دخول صحيح، كلمة مرور خاطئة، email غير موجود، حقول فارغة، والوصول لمسارات محمية بدون token."
+  },
+  {
+    "id": 37,
+    "topic": "UX",
+    "question": "Who is your target user and how did that shape the UI?",
+    "questionAr": "من مستخدمكم المستهدف وكيف شكّل ذلك الواجهة؟",
+    "answer": "Describe the user — student, patient, shop owner — and choices like simple forms, clear labels, mobile-first layout, and minimal steps to complete tasks.",
+    "answerAr": "صف المستخدم — طالب، مريض، صاحب متجر — وخيارات مثل نماذج بسيطة، تسميات واضحة، تخطيط mobile-first، وخطوات minimal لإنجاز المهام."
+  },
+  {
+    "id": 38,
+    "topic": "UX",
+    "question": "What did you do to make the app easy to use on mobile?",
+    "questionAr": "ماذا فعلتم لجعل التطبيق سهل الاستخدام على الجوال؟",
+    "answer": "Large tap targets, readable fonts, simple navigation, responsive layouts on web, and native-style screens on React Native.",
+    "answerAr": "أهداف لمس كبيرة، خطوط مقروءة، تنقل بسيط، تخطيطات متجاوبة على الويب، وشاشات بأسلوب native في React Native."
+  },
+  {
+    "id": 39,
+    "topic": "Scalability",
+    "question": "If 10,000 users joined tomorrow, what would break first?",
+    "questionAr": "إذا انضم 10,000 مستخدم غداً، ما الذي سينكسر أولاً؟",
+    "answer": "Honest junior answer: database queries without indexes, single server limits, large unfiltered lists, or no pagination. Shows you think beyond the demo.",
+    "answerAr": "إجابة صادقة للمبتدئ: استعلامات قاعدة البيانات بدون فهارس، حدود خادم واحد، قوائم كبيرة بدون تصفية، أو عدم استخدام pagination. يُظهر أنك تفكر أبعد من العرض التجريبي."
+  },
+  {
+    "id": 40,
+    "topic": "Scalability",
+    "question": "Do you use pagination or limits on list endpoints?",
+    "questionAr": "هل تستخدمون pagination أو limits في مسارات القوائم؟",
+    "answer": "If yes, explain page/limit query params. If not, admit it and say you would add it to avoid loading thousands of rows at once.",
+    "answerAr": "إجابة صادقة للمبتدئ: استعلامات DB بدون indexes، حدود خادم واحد، قوائم كبيرة بدون تصفية، أو لا pagination. يُظهر أنك تفكر beyond العرض التجريبي."
+  },
+  {
+    "id": 41,
+    "topic": "Future",
+    "question": "What features would you add in version 2?",
+    "questionAr": "ما الميزات التي ستضيفونها في الإصدار 2؟",
+    "answer": "Pick realistic improvements — search, notifications, roles/admin panel, file uploads, dark mode, analytics, or deployment to the cloud.",
+    "answerAr": "اختر تحسينات واقعية — بحث، إشعارات، roles/لوحة admin، رفع ملفات، dark mode، analytics، أو نشر على السحابة."
+  },
+  {
+    "id": 42,
+    "topic": "Future",
+    "question": "How would you deploy this project for real users?",
+    "questionAr": "كيف تنشرون هذا المشروع لمستخدمين حقيقيين؟",
+    "answer": "Backend on a host (Railway, Render, VPS), database managed service, web on Vercel/Netlify, mobile via app stores or Expo — with environment variables for secrets.",
+    "answerAr": "Backend على host (Railway، Render، VPS)، DB managed service، web على Vercel/Netlify، mobile عبر app stores أو Expo — مع environment variables للأسرار."
+  },
+  {
+    "id": 43,
+    "topic": "Code Quality",
+    "question": "How do you keep frontend and backend in sync when the API changes?",
+    "questionAr": "كيف تحافظون على تزامن الواجهة والخادم عند تغيّر API؟",
+    "answer": "Document endpoints, agree on JSON shape as a team, update services first, test with Postman, then update components and mobile together.",
+    "answerAr": "وثّقوا endpoints، اتفقوا على شكل JSON كفريق، حدّثوا services أولاً، اختبروا بـ Postman، ثم حدّثوا المكوّنات والجوال معاً."
+  },
+  {
+    "id": 44,
+    "topic": "Code Quality",
+    "question": "What coding standards did your team follow?",
+    "questionAr": "ما معايير البرمجة التي اتبعها فريقكم؟",
+    "answer": "Consistent naming, folder structure, ESLint/formatting, meaningful commits, code reviews, and avoiding huge files nobody can maintain.",
+    "answerAr": "تسمية متسقة، هيكل مجلدات، ESLint/formatting، commits واضحة، مراجعات كود، وتجنّب ملفات ضخمة لا يستطيع أحد صيانتها."
+  },
+  {
+    "id": 45,
+    "topic": "Requirements",
+    "question": "Show us where you implemented full CRUD.",
+    "questionAr": "أرنا أين نفّذتم CRUD كاملاً.",
+    "answer": "Point to one main resource in demo and API — create a record, list it, edit it, delete it — on web and ideally mobile too.",
+    "answerAr": "أشر إلى مورد رئيسي في العرض و API — أنشئ سجلاً، اعرضه، عدّله، احذفه — على الويب ويفضّل على الجوال أيضاً."
+  },
+  {
+    "id": 46,
+    "topic": "Requirements",
+    "question": "Does your project meet the mandatory course requirements?",
+    "questionAr": "هل يلبي مشروعكم المتطلبات الإلزامية للمقرر؟",
+    "answer": "Confirm registration/login, CRUD, attractive web UI, mobile app on same backend, and organized repo — briefly show evidence in slides or demo.",
+    "answerAr": "أكّد registration/login، CRUD، واجهة ويب جذابة، تطبيق جوال على نفس الخادم، ومستودع منظم — اعرض دليلاً مختصراً في الشرائح أو العرض."
+  },
+  {
+    "id": 47,
+    "topic": "Presentation",
+    "question": "Why should we choose your project as a strong example?",
+    "questionAr": "لماذا يجب أن نختار مشروعكم كمثال قوي؟",
+    "answer": "Highlight clear problem, working end-to-end demo, both clients, clean architecture, honest reflection on challenges, and confident teamwork.",
+    "answerAr": "أبرز مشكلة واضحة، عرض end-to-end يعمل، كلا العميلين، بنية نظيفة، تأمل صادق في التحديات، وفريق واثق."
+  },
+  {
+    "id": 48,
+    "topic": "Presentation",
+    "question": "What would you do differently if you started again?",
+    "questionAr": "ماذا كنتم ستفعلون بشكل مختلف إذا بدأتم من جديد؟",
+    "answer": "Examples: design database earlier, agree on API contract sooner, test mobile earlier, smaller MVP first, or more frequent team syncs.",
+    "answerAr": "أمثلة: تصميم قاعدة البيانات أبكر، الاتفاق على عقد API أسرع، اختبار الجوال مبكراً، MVP أصغر أولاً، أو متابعات فريق أكثر تكراراً."
+  },
+  {
+    "id": 49,
+    "topic": "Presentation",
+    "question": "Which team member can explain the backend/mobile/database if asked?",
+    "questionAr": "أي عضو في الفريق يمكنه شرح backend/mobile/database إذا سُئل؟",
+    "answer": "Each specialist should be ready to answer their part. Even if one person presents, others must know the whole story and step in when needed.",
+    "answerAr": "يجب أن يكون كل متخصص جاهزاً للإجابة عن جزئه. حتى لو قدّم شخص واحد، يجب أن يعرف الآخرون القصة كاملة ويتدخلوا عند الحاجة."
+  },
+  {
+    "id": 50,
+    "topic": "Presentation",
+    "question": "Do you have any questions for the committee?",
+    "questionAr": "هل لديكم أسئلة للجنة؟",
+    "answer": "Prepare one thoughtful question — feedback on architecture, career advice, or how to improve the project — it shows engagement and confidence.",
+    "answerAr": "حضّر سؤالاً مدروساً — ملاحظات على البنية، نصيحة مهنية، أو كيفية تحسين المشروع — يُظهر اهتماماً وثقة."
+  }
+]

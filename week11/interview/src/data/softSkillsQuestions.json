@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "topic": "Introduction",
+    "question": "Tell me about yourself.",
+    "questionAr": "أخبرني عن نفسك.",
+    "answer": "Give a short professional summary: who you are, what you studied, what you built in this course, and what kind of developer you want to become. Keep it under one minute and focus on relevant skills, not your whole life story.",
+    "answerAr": "قدّم ملخصاً مهنياً قصيراً: من أنت، ماذا درست، ماذا بنيت في هذه الدورة، وما نوع المطوّر الذي تريد أن تصبح. اجعله أقل من دقيقة وركّز على المهارات ذات الصلة، وليس قصة حياتك كاملة."
+  },
+  {
+    "id": 2,
+    "topic": "Motivation",
+    "question": "Why do you want to work in software development?",
+    "questionAr": "لماذا تريد العمل في مجال تطوير البرمجيات؟",
+    "answer": "Explain what excites you — solving problems, building products people use, continuous learning, or creating web and mobile apps. Connect your answer to real experience from the course or your team project.",
+    "answerAr": "اشرح ما يثير حماسك — حل المشكلات، بناء منتجات يستخدمها الناس، التعلّم المستمر، أو إنشاء تطبيقات ويب وجوال. اربط إجابتك بتجربة حقيقية من الدورة أو مشروع فريقك."
+  },
+  {
+    "id": 3,
+    "topic": "Teamwork",
+    "question": "Describe a time you worked successfully in a team.",
+    "questionAr": "صف موقفاً نجحت فيه في العمل ضمن فريق.",
+    "answer": "Use a simple structure: situation → your role → what the team did → result. Mention communication, dividing tasks, using Git, and helping teammates when they were stuck.",
+    "answerAr": "استخدم بنية بسيطة: الموقف ← دورك ← ما الذي فعله الفريق ← النتيجة. اذكر التواصل، تقسيم المهام، استخدام Git، ومساعدة الزملاء عندما يواجهون صعوبة."
+  },
+  {
+    "id": 4,
+    "topic": "Teamwork",
+    "question": "How do you handle disagreements in a team?",
+    "questionAr": "كيف تتعامل مع الخلافات داخل الفريق؟",
+    "answer": "Stay respectful, listen to the other person's reason, focus on the goal not ego, suggest trying both ideas or checking documentation, and agree on a decision so the project keeps moving.",
+    "answerAr": "ابقَ محترماً، استمع لسبب الطرف الآخر، ركّز على الهدف لا على الأنا، اقترح تجربة كلا الفكرتين أو مراجعة التوثيق، واتفق على قرار حتى يستمر المشروع."
+  },
+  {
+    "id": 5,
+    "topic": "Strengths",
+    "question": "What is your greatest strength as a developer?",
+    "questionAr": "ما هي نقطة قوتك الأقوى كمطوّر؟",
+    "answer": "Pick one real strength — persistence, attention to detail, clear communication, fast learning, or debugging — and give a brief example from a project where it helped you deliver results.",
+    "answerAr": "اختر نقطة قوة حقيقية — المثابرة، الاهتمام بالتفاصيل، التواصل الواضح، التعلّم السريع، أو تصحيح الأخطاء — وقدّم مثالاً مختصراً من مشروع ساعدك فيه على إنجاز النتائج."
+  },
+  {
+    "id": 6,
+    "topic": "Growth",
+    "question": "What is a weakness you are working to improve?",
+    "questionAr": "ما نقطة ضعف تعمل على تحسينها؟",
+    "answer": "Choose an honest but safe weakness — e.g. speaking too fast, perfectionism, or estimating time — explain how it affected you, and describe concrete steps you take to improve.",
+    "answerAr": "اختر نقطة ضعف صادقة لكن آمنة — مثل التحدث بسرعة، المثالية الزائدة، أو تقدير الوقت — اشرح كيف أثرت عليك، وصف الخطوات العملية التي تتخذها للتحسّن."
+  },
+  {
+    "id": 7,
+    "topic": "Time Management",
+    "question": "How do you handle tight deadlines?",
+    "questionAr": "كيف تتعامل مع المواعيد النهائية الضيقة؟",
+    "answer": "Break work into small tasks, prioritize must-have features first, communicate early if something is at risk, avoid perfectionism on minor details, and test as you go instead of leaving everything to the last day.",
+    "answerAr": "قسّم العمل إلى مهام صغيرة، أعطِ الأولوية للميزات الأساسية، تواصل مبكراً إذا كان هناك خطر على الموعد، تجنّب المثالية في التفاصيل الثانوية، واختبر أثناء العمل بدلاً من ترك كل شيء لآخر يوم."
+  },
+  {
+    "id": 8,
+    "topic": "Problem Solving",
+    "question": "Describe a difficult problem you faced and how you solved it.",
+    "questionAr": "صف مشكلة صعبة واجهتها وكيف حلّيتها.",
+    "answer": "Explain the problem clearly, what you tried first, how you searched for help (docs, teammates, debugging tools), what the root cause was, and what you learned to prevent it next time.",
+    "answerAr": "اشرح المشكلة بوضوح، ما الذي جربته أولاً، كيف بحثت عن المساعدة (التوثيق، الزملاء، أدوات التصحيح)، ما السبب الجذري، وماذا تعلّمت لتجنّبه لاحقاً."
+  },
+  {
+    "id": 9,
+    "topic": "Value",
+    "question": "Why should we hire you?",
+    "questionAr": "لماذا يجب أن نوظّفك؟",
+    "answer": "Summarize what you bring: practical full-stack skills from the course, teamwork experience, willingness to learn, reliability, and examples of projects or features you actually built and can demo.",
+    "answerAr": "لخّص ما تقدّمه: مهارات full-stack عملية من الدورة، خبرة العمل الجماعي، الرغبة في التعلّم، الموثوقية، وأمثلة على مشاريع أو ميزات بنيتها فعلاً ويمكنك عرضها."
+  },
+  {
+    "id": 10,
+    "topic": "Career Goals",
+    "question": "Where do you see yourself in five years?",
+    "questionAr": "أين ترى نفسك بعد خمس سنوات؟",
+    "answer": "Show ambition with realism — e.g. growing as a full-stack or mobile developer, contributing to real products, mentoring juniors, or specializing in an area you enjoy. Tie it to continuous learning.",
+    "answerAr": "أظهر طموحاً واقعياً — مثل النمو كمطوّر full-stack أو جوال، المساهمة في منتجات حقيقية، إرشاد المبتدئين، أو التخصص في مجال تحبّه. اربط ذلك بالتعلّم المستمر."
+  },
+  {
+    "id": 11,
+    "topic": "Feedback",
+    "question": "How do you handle criticism or feedback?",
+    "questionAr": "كيف تتعامل مع النقد أو الملاحظات؟",
+    "answer": "Listen without getting defensive, ask clarifying questions, thank the person, decide what is useful, make changes if needed, and treat feedback as a way to grow rather than a personal attack.",
+    "answerAr": "استمع دون أن تكون دفاعياً، اطرح أسئلة توضيحية، اشكر الشخص، قرّر ما هو مفيد، نفّذ التغييرات إذا لزم، واعتبر الملاحظات وسيلة للنمو لا هجوماً شخصياً."
+  },
+  {
+    "id": 12,
+    "topic": "Prioritization",
+    "question": "How do you prioritize tasks when you have many things to do?",
+    "questionAr": "كيف تحدّد أولويات المهام عندما يكون لديك الكثير للقيام به؟",
+    "answer": "List all tasks, identify what blocks others or is required for demo/deadline, do high-impact work first, break big tasks into steps, and re-check priorities when new urgent work appears.",
+    "answerAr": "اكتب جميع المهام، حدّد ما يعيق الآخرين أو مطلوب للعرض/الموعد، نفّذ العمل الأكثر تأثيراً أولاً، قسّم المهام الكبيرة إلى خطوات، وأعد مراجعة الأولويات عند ظهور عمل عاجل جديد."
+  },
+  {
+    "id": 13,
+    "topic": "Learning",
+    "question": "Tell me about a time you had to learn something new quickly.",
+    "questionAr": "أخبرني عن موقف اضطررت فيه لتعلّم شيء جديد بسرعة.",
+    "answer": "Name the technology or skill, explain why you needed it, describe how you learned (tutorials, docs, trying small examples, asking teammates), and share the outcome.",
+    "answerAr": "اذكر التقنية أو المهارة، اشرح لماذا احتجتها، صف كيف تعلّمت (دروس، توثيق، تجربة أمثلة صغيرة، سؤال الزملاء)، وشارك النتيجة."
+  },
+  {
+    "id": 14,
+    "topic": "Motivation",
+    "question": "How do you stay motivated when a project becomes difficult?",
+    "questionAr": "كيف تحافظ على حماسك عندما يصبح المشروع صعباً؟",
+    "answer": "Focus on small wins, remember the user problem you are solving, take short breaks, ask for help instead of staying stuck for hours, and celebrate progress with your team.",
+    "answerAr": "ركّز على إنجازات صغيرة، تذكّر مشكلة المستخدم التي تحلّها، خذ استراحات قصيرة، اطلب المساعدة بدلاً من البقاء عالقاً لساعات، واحتفل بالتقدّم مع فريقك."
+  },
+  {
+    "id": 15,
+    "topic": "Communication",
+    "question": "What does good communication mean to you in a dev team?",
+    "questionAr": "ماذا يعني التواصل الجيد بالنسبة لك في فريق تطوير؟",
+    "answer": "Sharing updates early, explaining blockers clearly, writing understandable commit messages, documenting decisions, listening actively, and making sure everyone knows who owns each task.",
+    "answerAr": "مشاركة التحديثات مبكراً، شرح العوائق بوضوح، كتابة رسائل commit مفهومة، توثيق القرارات، الاستماع الفعّال، والتأكد من أن الجميع يعرف من يتولى كل مهمة."
+  },
+  {
+    "id": 16,
+    "topic": "Accountability",
+    "question": "How do you handle making a mistake at work or in a project?",
+    "questionAr": "كيف تتعامل مع ارتكاب خطأ في العمل أو في مشروع؟",
+    "answer": "Admit it honestly, explain what happened without excuses, fix the issue or ask for help, inform teammates if it affects them, and note what you will do differently next time.",
+    "answerAr": "اعترف به بصدق، اشرح ما حدث دون أعذار، أصلح المشكلة أو اطلب المساعدة، أبلغ الزملاء إذا أثر عليهم، وسجّل ما ستفعله بشكل مختلف في المرة القادمة."
+  },
+  {
+    "id": 17,
+    "topic": "Collaboration",
+    "question": "Are you comfortable asking for help? When do you ask?",
+    "questionAr": "هل تشعر بالراحة عند طلب المساعدة؟ متى تطلبها؟",
+    "answer": "Yes — after you have tried to understand the problem yourself (read the error, check docs, search). Ask when you are blocked for too long, when a decision affects the whole team, or when you need clarification on requirements.",
+    "answerAr": "نعم — بعد أن تحاول فهم المشكلة بنفسك (قراءة الخطأ، مراجعة التوثيق، البحث). اطلب المساعدة عندما تبقى عالقاً وقتاً طويلاً، أو عندما يؤثر قرار على الفريق كله، أو عندما تحتاج توضيحاً للمتطلبات."
+  },
+  {
+    "id": 18,
+    "topic": "Stress",
+    "question": "How do you manage stress during exams, deadlines, or presentations?",
+    "questionAr": "كيف تدير التوتر أثناء الامتحانات أو المواعيد النهائية أو العروض؟",
+    "answer": "Prepare early, practice demos and answers, sleep well, break work into steps, breathe and pause before speaking, and focus on what you can control instead of worrying about everything at once.",
+    "answerAr": "استعد مبكراً، تدرّب على العروض والإجابات، نم جيداً، قسّم العمل إلى خطوات، تنفّس وتوقّف قبل التحدث، وركّز على ما يمكنك التحكم به بدلاً من القلق على كل شيء دفعة واحدة."
+  },
+  {
+    "id": 19,
+    "topic": "Interview Skills",
+    "question": "What questions would you ask the interviewer or employer?",
+    "questionAr": "ما الأسئلة التي ستطرحها على المُقابِل أو صاحب العمل؟",
+    "answer": "Ask about the team, technologies used, onboarding for juniors, code review culture, growth opportunities, and what success looks like in the first months. It shows interest and helps you decide if the role fits you.",
+    "answerAr": "اسأل عن الفريق، التقنيات المستخدمة، تأهيل المبتدئين، ثقافة مراجعة الكود، فرص النمو، وكيف يبدو النجاح في الأشهر الأولى. ذلك يُظهر اهتمامك ويساعدك على معرفة إن كان الدور مناسباً لك."
+  },
+  {
+    "id": 20,
+    "topic": "Continuous Learning",
+    "question": "How do you plan to keep learning after this course ends?",
+    "questionAr": "كيف تخطط للاستمرار في التعلّم بعد انتهاء هذه الدورة؟",
+    "answer": "Build small personal projects, read official docs, follow structured tutorials, contribute to team or open-source work, practice interview questions, and learn one new concept at a time instead of jumping randomly.",
+    "answerAr": "ابنِ مشاريع شخصية صغيرة، اقرأ التوثيق الرسمي، اتبع دروساً منظمة، ساهم في عمل جماعي أو open-source، تدرّب على أسئلة المقابلات، وتعلّم مفهوماً جديداً في كل مرة بدلاً من القفز عشوائياً."
+  }
+]

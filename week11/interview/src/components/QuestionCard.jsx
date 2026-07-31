@@ -25,9 +25,21 @@ function QuestionCard({
       </div>
 
       <div className="space-y-8 p-6">
-        <h2 className="text-xl font-medium leading-relaxed text-gray-900 dark:text-white sm:text-2xl">
-          {question.question}
-        </h2>
+        <div className="space-y-4">
+          <h2 className="text-xl font-medium leading-relaxed text-gray-900 dark:text-white sm:text-2xl">
+            {question.question}
+          </h2>
+
+          {question.questionAr && (
+            <p
+              dir="rtl"
+              lang="ar"
+              className="text-lg leading-relaxed text-gray-600 dark:text-gray-300"
+            >
+              {question.questionAr}
+            </p>
+          )}
+        </div>
 
         {answeredBy && (
           <div className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-4 py-2 text-sm text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-200">
